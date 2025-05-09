@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import connect4Img from "@/public/connect4.png";
+import eciotsiteImg from "@/public/eciotsite.gif";
+import algo_vizgif from "@/public/algo_viz.gif";
 
 export const links = [
   {
@@ -35,56 +35,55 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Technical Lead",
+    location: "Electronics and IoT Club",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I am a member of the Electronics and IoT Club at IIT (ISM) Dhanbad. I have worked on integrating various sensors with ESP32 and Arduino boards.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "May '25 - present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Club Member",
+    location: "Animation and Game Design Club",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+      "I am a game developer and a member of the Animation and Game Design Club at IIT (ISM) Dhanbad.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Apr '24 - Present",
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Electronics and IoT Club Official Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A full-stack web app that serves as the official website for the Electronics and IoT Club at IIT (ISM) Dhanbad.",
+    tags: ["Next.js", "React Routes", "Tailwind CSS", "Supabase", "TypeScript"],
+    imageUrl: eciotsiteImg,
   },
   {
-    title: "rmtDev",
+    title: "Connect 4 AI Agent",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "a neural network-based reinforcement learning agent that plays Connect Four using the Proximal Policy Optimization (PPO) algorithm",
+    tags: ["Python", "NumPy", "PyTorch", "Stable-Baselines3", "OpenAI Gym", "kaggle-environments"],
+    imageUrl: connect4Img,
   },
   {
-    title: "Word Analytics",
+    title: "Pathfinding Algorithm Visualizer",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+      "A pathfinding algorithm visualizer. It uses A* and Dijkstra algorithms to find the shortest path between two points in a randomly generated maze and visualize it in real time.",
+    tags: ["Unity", "C#"],
+    imageUrl: algo_vizgif,
+  }
 ] as const;
 
 export const skillsData = [
+  "C",
+  "C++",
+  "C#",
+  "Unity",
+  "Python",
+  "TensorFlow",
+  "PyTorch",
   "HTML",
   "CSS",
   "JavaScript",
@@ -93,15 +92,7 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Tailwind CSS",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Supabase"
 ] as const;
