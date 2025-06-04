@@ -63,7 +63,7 @@ export const projectsData = [
   {
     title: "Connect 4 AI Agent",
     description:
-      "a neural network-based reinforcement learning agent that plays Connect Four using the Proximal Policy Optimization (PPO) algorithm",
+      "A neural network-based reinforcement learning agent that plays Connect Four using the Proximal Policy Optimization (PPO) algorithm",
     tags: ["Python", "NumPy", "PyTorch", "Stable-Baselines3", "OpenAI Gym", "kaggle-environments"],
     imageUrl: connect4Img,
   },
